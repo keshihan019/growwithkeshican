@@ -2,6 +2,20 @@ import { ScrollReveal } from "./ScrollReveal";
 
 const experiences = [
   {
+    role: "Business Analyst Intern",
+    company: "Dialog Axiata PLC",
+    period: "Aug 2024 – Feb 2025",
+    description:
+      "Experienced in developing and maintaining dynamic sales dashboards on a weekly, monthly, and quarterly basis to track performance metrics. Skilled in analyzing sales trends, market insights, and partner performance data to identify gaps and recommend actionable improvements.",
+  },
+  {
+    role: "Social Media Analyst",
+    company: "Hashtag Generation",
+    period: "Sep 2024 – Feb 2025",
+    description:
+      "Served as a Social Media Analyst at Hashtag Generation, monitoring platform-specific trends and audience behavior to optimize content strategy. Prepared performance reports and analyzed campaign results to provide actionable insights, enhance engagement, and support data-driven decision-making.",
+  },
+  {
     role: "Social Media Analyst",
     company: "Qubitz",
     period: "Current",
@@ -9,18 +23,18 @@ const experiences = [
       "Analyzing social media performance, crafting data-driven strategies, and managing brand presence across digital platforms.",
   },
   {
-    role: "Digital Marketing Intern",
-    company: "Commercial Technologies Plus",
-    period: "Internship",
-    description:
-      "Hands-on experience in SEO, content marketing, paid advertising campaigns, and marketing analytics.",
-  },
-  {
     role: "Development Intern",
     company: "International Youth Alliance for Peace (IYAP)",
-    period: "Internship",
+    period: "Feb 2023 – Jul 2023",
     description:
-      "Contributed to web development projects and supported digital initiatives for youth-driven peace-building programs.",
+      "During my time as a Development Intern at the International Youth Alliance For Peace, I had the opportunity to work on various tasks such as graphic designing, social media management, strategy planning, blogging, writing articles, completing online courses, and working on the blogger recruitment project.",
+  },
+  {
+    role: "Digital Marketing Intern",
+    company: "Commercial Technologies Plus",
+    period: "Aug 2022 – Feb 2023",
+    description:
+      "Worked as a Digital Marketing Intern at Commercial Technologies Plus, an award-winning product development company supporting global startups, and investors. Assisted in executing digital campaigns, optimizing content strategies, and contributing to brand visibility across multiple online platforms.",
   },
 ];
 
