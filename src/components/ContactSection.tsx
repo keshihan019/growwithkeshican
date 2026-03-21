@@ -4,7 +4,7 @@ import { Mail, Linkedin, Github, Facebook, Instagram, Youtube, ExternalLink } fr
 const socials = [
   { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/keshihan/" },
   { icon: Github, label: "GitHub", href: "https://github.com/keshihan019" },
-  { icon: Facebook, label: "Facebook", href: "https://www.facebook.com/KeshihanIlamuruganathan" },
+  { icon: Facebook, label: "Facebook", href: "https://www.facebook.com/growithkeshican" },
   { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/keshihan_19" },
   { icon: Youtube, label: "YouTube", href: "https://www.youtube.com/channel/UCewC3HIV1PW4iQFncs8Nqxw" },
 ];
@@ -34,13 +34,21 @@ export const ContactSection = () => {
             </ScrollReveal>
 
             <ScrollReveal delay={0.1}>
-              <a
-                href="mailto:keshihan0000@gmail.com"
-                className="inline-flex items-center gap-3 text-lg font-medium hover:text-primary transition-colors mb-10"
-              >
-                <Mail size={20} />
-                keshihan0000@gmail.com
-              </a>
+              <div className="space-y-3 mb-10">
+                <a
+                  href="mailto:keshihan0000@gmail.com"
+                  className="flex items-center gap-3 text-lg font-medium hover:text-primary transition-colors"
+                >
+                  <Mail size={20} />
+                  keshihan0000@gmail.com
+                </a>
+                <p className="flex items-center gap-3 text-lg text-primary-foreground/70">
+                  📞 +94 77 918 5685
+                </p>
+                <p className="flex items-center gap-3 text-lg text-primary-foreground/70">
+                  📍 Trincomalee, Sri Lanka
+                </p>
+              </div>
             </ScrollReveal>
 
             <ScrollReveal delay={0.15}>
@@ -64,7 +72,7 @@ export const ContactSection = () => {
             </ScrollReveal>
           </div>
 
-          {/* Right — freelance */}
+          {/* Right — freelance & more */}
           <div>
             <ScrollReveal delay={0.1}>
               <p className="text-sm font-semibold uppercase tracking-wider text-primary-foreground/50 mb-4">
@@ -92,9 +100,10 @@ export const ContactSection = () => {
               </p>
               <div className="flex flex-wrap gap-2">
                 {[
-                  { label: "Twitter / X", href: "https://www.twitter.com/Keshihan4" },
+                  { label: "X (Twitter)", href: "https://x.com/keshihan019" },
                   { label: "TikTok", href: "https://www.tiktok.com/@keshihan_19" },
-                  { label: "Medium", href: "#" },
+                  { label: "Medium", href: "https://medium.com/@keshihan" },
+                  { label: "Behance", href: "https://behance.net/keshihan" },
                   { label: "HackerRank", href: "https://www.hackerrank.com/keshihan0000" },
                   { label: "Stack Overflow", href: "https://stackoverflow.com/users/20063836/keshihan-ilamuruganathan" },
                 ].map((l) => (

@@ -2,12 +2,12 @@ import { ScrollReveal } from "./ScrollReveal";
 import { BadgeCheck } from "lucide-react";
 
 const certifications = [
-  { name: "Salesforce Administrator", issuer: "Salesforce" },
-  { name: "Salesforce Platform Developer", issuer: "Salesforce" },
+  { name: "Salesforce Certified AI Associate", issuer: "Salesforce" },
+  { name: "Salesforce Certified Platform Foundations", issuer: "Salesforce" },
+  { name: "Cisco Certified Cybersecurity Essentials", issuer: "Cisco" },
   { name: "Aspire Leaders Program", issuer: "Aspire Institute" },
-  { name: "Google Analytics", issuer: "Google" },
-  { name: "Digital Marketing Fundamentals", issuer: "Various Platforms" },
-  { name: "Web Development", issuer: "Coursera / freeCodeCamp / Udemy" },
+  { name: "Diploma in Digital Marketing", issuer: "Sri Lanka Institute of Marketing" },
+  { name: "Google Analytics Certification", issuer: "Google" },
 ];
 
 export const CertificationsSection = () => {

@@ -1,10 +1,12 @@
 import { ScrollReveal } from "./ScrollReveal";
-import { Briefcase, GraduationCap, Award } from "lucide-react";
+import { Briefcase, GraduationCap, Award, Globe2, Phone } from "lucide-react";
 
 const stats = [
-  { icon: Briefcase, label: "Current Role", value: "Social Media Analyst" },
+  { icon: Briefcase, label: "Current Role", value: "Analyst (Business + Social Media)" },
   { icon: GraduationCap, label: "Education", value: "BSc. Information Systems" },
-  { icon: Award, label: "Certifications", value: "2× Salesforce Certified" },
+  { icon: Award, label: "Certifications", value: "2× Salesforce · Cisco Certified" },
+  { icon: Globe2, label: "Languages", value: "Tamil · English · Sinhala · French" },
+  { icon: Phone, label: "Phone", value: "+94 77 918 5685" },
 ];
 
 export const AboutSection = () => {
@@ -20,17 +22,18 @@ export const AboutSection = () => {
 
         <ScrollReveal delay={0.1}>
           <p className="text-muted-foreground text-lg leading-relaxed max-w-3xl mb-12">
-            I'm a passionate social impactpreneur from Trincomalee, Sri Lanka, dedicated to driving
-            innovation at the intersection of technology, digital marketing, and community empowerment.
-            Currently working as a Social Media Analyst at Qubitz, I combine analytical thinking with
-            creative storytelling to deliver measurable impact. My journey spans full-stack development,
-            business analysis, and digital transformation.
+            Keshihan is a dedicated and ambitious professional with a strong passion for Information
+            Technology and Business Management. He is a passionate social impactpreneur from
+            Trincomalee, Sri Lanka, dedicated to driving innovation at the intersection of technology,
+            digital marketing & community empowerment. With experience spanning business analysis at
+            Dialog Axiata PLC, social media analytics, and full-stack development, he combines
+            analytical thinking with creative storytelling to deliver measurable impact.
           </p>
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {stats.map((s, i) => (
-            <ScrollReveal key={s.label} delay={0.1 + i * 0.08}>
+            <ScrollReveal key={s.label} delay={0.1 + i * 0.06}>
               <div className="card-elevated flex items-start gap-4">
                 <div className="w-11 h-11 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
                   <s.icon size={20} className="text-primary" />
