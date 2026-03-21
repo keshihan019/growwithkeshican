@@ -7,23 +7,31 @@ const categories = [
   },
   {
     title: "Frameworks & Tools",
-    skills: ["React Native", "Flutter", "Bootstrap", "GitHub Pages"],
+    skills: ["React Native", "Flutter", "Bootstrap", "WordPress", "GitHub Pages"],
   },
   {
-    title: "Design",
-    skills: ["Figma", "Canva", "Adobe Photoshop", "Adobe Lightroom"],
+    title: "Design & Media",
+    skills: ["Figma", "Canva", "Adobe Photoshop", "Adobe Lightroom", "Filmora WS"],
   },
   {
     title: "Data & Analytics",
-    skills: ["Google Analytics", "MySQL", "Business Analysis", "Data Visualization"],
+    skills: ["Google Analytics", "MySQL", "Business Analysis", "Data Visualization", "Jira"],
   },
   {
-    title: "Marketing",
-    skills: ["Social Media Marketing", "SEO", "Content Strategy", "Digital Advertising"],
+    title: "Marketing & Content",
+    skills: ["Social Media Marketing", "SEO", "Content Writing", "Digital Advertising", "Blogging"],
+  },
+  {
+    title: "Project Management",
+    skills: ["Trello", "Jira", "Slack", "Microsoft Teams", "Microsoft Packages"],
   },
   {
     title: "Platforms",
-    skills: ["Salesforce", "Slack", "Microsoft Teams", "Zoom"],
+    skills: ["Salesforce", "Hosting", "WordPress", "Zoom", "Translation"],
+  },
+  {
+    title: "Interests",
+    skills: ["Photography", "Volunteering", "Blogging", "Mentoring"],
   },
 ];
 
@@ -36,7 +44,7 @@ export const CompetenciesSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-10">Skills & Expertise</h2>
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {categories.map((cat, i) => (
             <ScrollReveal key={cat.title} delay={0.06 * i}>
               <div className="card-elevated h-full">

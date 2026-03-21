@@ -6,16 +6,15 @@ import profilePhoto from "@/assets/profile-photo.png";
 const socials = [
   { icon: Linkedin, href: "https://www.linkedin.com/in/keshihan/", label: "LinkedIn" },
   { icon: Github, href: "https://github.com/keshihan019", label: "GitHub" },
-  { icon: Facebook, href: "https://www.facebook.com/KeshihanIlamuruganathan", label: "Facebook" },
+  { icon: Facebook, href: "https://www.facebook.com/growithkeshican", label: "Facebook" },
   { icon: Instagram, href: "https://www.instagram.com/keshihan_19", label: "Instagram" },
-  { icon: Twitter, href: "https://www.twitter.com/Keshihan4", label: "Twitter" },
+  { icon: Twitter, href: "https://x.com/keshihan019", label: "X" },
   { icon: Youtube, href: "https://www.youtube.com/channel/UCewC3HIV1PW4iQFncs8Nqxw", label: "YouTube" },
 ];
 
 export const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background image */}
       <div className="absolute inset-0">
         <img src={heroBg} alt="" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-foreground/70" />
@@ -23,7 +22,6 @@ export const HeroSection = () => {
 
       <div className="relative z-10 container-narrow px-6 py-32 md:py-0">
         <div className="flex flex-col md:flex-row md:items-center md:gap-16">
-          {/* Text content */}
           <div className="max-w-2xl flex-1">
             <motion.div
               initial={{ opacity: 0, y: 24, filter: "blur(6px)" }}
@@ -35,14 +33,17 @@ export const HeroSection = () => {
                 <span>Trincomalee, Sri Lanka</span>
               </div>
 
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[0.95] text-primary-foreground mb-4">
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[0.95] text-primary-foreground mb-3">
                 Keshihan
                 <br />
                 <span className="text-primary">Ilamuruganathan</span>
               </h1>
+
+              <p className="text-sm font-medium text-primary-foreground/60 mb-4 tracking-wide uppercase">
+                Analyst (Business + Social Media)
+              </p>
             </motion.div>
 
-            {/* Social media handles */}
             <motion.div
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
@@ -93,7 +94,6 @@ export const HeroSection = () => {
             </motion.div>
           </div>
 
-          {/* Profile photo */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9, filter: "blur(8px)" }}
             animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
@@ -111,7 +111,6 @@ export const HeroSection = () => {
         </div>
       </div>
 
-      {/* Scroll indicator */}
       <motion.a
         href="#about"
         initial={{ opacity: 0 }}
