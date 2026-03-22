@@ -64,14 +64,8 @@ export const HeroSection = () => {
               ))}
             </motion.div>
 
-            <motion.p
-              initial={{ opacity: 0, y: 20, filter: "blur(4px)" }}
-              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-              transition={{ duration: 0.6, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-              className="text-lg md:text-xl text-primary-foreground/75 max-w-lg mb-8 leading-relaxed"
-            >
-              Digital Innovator · Social Impactpreneur · 2× Salesforce Certified · Aspire Scholar '23
-            </motion.p>
+
+
 
             <motion.div
               initial={{ opacity: 0, y: 16 }}
