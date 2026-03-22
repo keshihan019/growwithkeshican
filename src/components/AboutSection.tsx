@@ -1,12 +1,11 @@
 import { ScrollReveal } from "./ScrollReveal";
-import { Briefcase, GraduationCap, Award, Globe2, Phone } from "lucide-react";
+import { Briefcase, GraduationCap, Award, Globe2 } from "lucide-react";
 
 const stats = [
   { icon: Briefcase, label: "Current Role", value: "Analyst (Business + Social Media)" },
   { icon: GraduationCap, label: "Education", value: "BSc. Information Systems" },
   { icon: Award, label: "Certifications", value: "2× Salesforce · Cisco Certified" },
   { icon: Globe2, label: "Languages", value: "Tamil · English · Sinhala · French" },
-  { icon: Phone, label: "Phone", value: "+94 77 918 5685" },
 ];
 
 export const AboutSection = () => {
