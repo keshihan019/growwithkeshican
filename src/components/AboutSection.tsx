@@ -24,9 +24,7 @@ export const AboutSection = () => {
             Keshihan is a dedicated and ambitious professional with a strong passion for Information
             Technology and Business Management. He is a passionate social impactpreneur from
             Trincomalee, Sri Lanka, dedicated to driving innovation at the intersection of technology,
-            digital marketing & community empowerment. With experience spanning business analysis at
-            Dialog Axiata PLC, social media analytics, and full-stack development, he combines
-            analytical thinking with creative storytelling to deliver measurable impact.
+            digital marketing & community empowerment.
           </p>
         </ScrollReveal>
 
