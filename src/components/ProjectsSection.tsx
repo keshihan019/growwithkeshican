@@ -6,12 +6,13 @@ const projects = [
     title: "Community Empowerment Platform",
     tags: ["Social Impact", "Web Dev"],
     description: "A digital platform connecting communities in Trincomalee with resources, mentorship, and opportunities.",
+    link: "https://whatsapp.com/channel/0029Va9qDis9MF90vwaoYv3J",
   },
   {
-    title: "Freelance Portfolio Hub",
-    tags: ["Full-Stack", "React"],
-    description: "Personal portfolio and project showcase built with modern web technologies.",
-    link: "https://linktr.ee/keshihan",
+    title: "Community Hub Trinco Mirror",
+    tags: ["Community", "Web Dev"],
+    description: "A community-driven news and information hub serving the Trincomalee district with local updates, stories, and resources.",
+    link: "https://trincomirror.com/",
   },
   {
     title: "Digital Marketing Campaigns",
