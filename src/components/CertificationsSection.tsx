@@ -5,7 +5,7 @@ const certifications = [
   { name: "Salesforce Certified AI Associate", issuer: "Salesforce" },
   { name: "Salesforce Certified Platform Foundations", issuer: "Salesforce" },
   { name: "Cisco Certified Cybersecurity Essentials", issuer: "Cisco" },
-  { name: "Aspire Leaders Program", issuer: "Aspire Institute" },
+  { name: "Certified Aspire Scholar 2023", issuer: "Aspire Institute" },
   { name: "Diploma in Digital Marketing", issuer: "Sri Lanka Institute of Marketing" },
   { name: "Google Analytics Certification", issuer: "Google" },
 ];
