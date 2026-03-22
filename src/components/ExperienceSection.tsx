@@ -2,6 +2,13 @@ import { ScrollReveal } from "./ScrollReveal";
 
 const experiences = [
   {
+    role: "Social Media Analyst",
+    company: "Qubitz",
+    period: "Feb 2025 – Present",
+    description:
+      "Analyzing social media performance, crafting data-driven strategies, and managing brand presence across digital platforms.",
+  },
+  {
     role: "Business Analyst Intern",
     company: "Dialog Axiata PLC",
     period: "Aug 2024 – Feb 2025",
@@ -14,13 +21,6 @@ const experiences = [
     period: "Sep 2024 – Feb 2025",
     description:
       "Served as a Social Media Analyst at Hashtag Generation, monitoring platform-specific trends and audience behavior to optimize content strategy. Prepared performance reports and analyzed campaign results to provide actionable insights, enhance engagement, and support data-driven decision-making.",
-  },
-  {
-    role: "Social Media Analyst",
-    company: "Qubitz",
-    period: "Current",
-    description:
-      "Analyzing social media performance, crafting data-driven strategies, and managing brand presence across digital platforms.",
   },
   {
     role: "Development Intern",
@@ -47,19 +47,19 @@ export const ExperienceSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-10">Professional Journey</h2>
         </ScrollReveal>
 
-        <div className="relative pl-8 border-l-2 border-border space-y-10">
+        <div className="relative pl-8 border-l-2 border-border space-y-8">
           {experiences.map((exp, i) => (
             <ScrollReveal key={i} delay={0.08 * i}>
               <div className="relative">
                 {/* Timeline dot */}
                 <div className="absolute -left-[calc(2rem+5px)] top-1.5 w-3 h-3 rounded-full bg-primary ring-4 ring-background" />
-                <div className="card-elevated">
+                <div className="card-elevated min-h-[200px] flex flex-col">
                   <div className="flex flex-wrap items-center gap-3 mb-2">
                     <h3 className="text-lg font-bold">{exp.role}</h3>
                     <span className="badge-skill text-xs">{exp.period}</span>
                   </div>
                   <p className="text-primary font-medium text-sm mb-3">{exp.company}</p>
-                  <p className="text-muted-foreground leading-relaxed">{exp.description}</p>
+                  <p className="text-muted-foreground leading-relaxed flex-1">{exp.description}</p>
                 </div>
               </div>
             </ScrollReveal>
