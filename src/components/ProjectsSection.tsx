@@ -18,6 +18,7 @@ const projects = [
     title: "Digital Marketing Campaigns",
     tags: ["Marketing", "Analytics"],
     description: "End-to-end social media campaigns with data-driven insights and measurable ROI for multiple brands.",
+    link: "https://qubitz.solutions/",
   },
 ];
 
