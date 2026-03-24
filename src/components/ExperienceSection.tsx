@@ -6,7 +6,7 @@ const experiences = [
     company: "Qubitz",
     period: "Feb 2025 – Present",
     description:
-      "Analyzing social media performance, crafting data-driven strategies, and managing brand presence across digital platforms.",
+      "Analyze social media performance and generate data-driven insights to optimize engagement and campaign effectiveness. Manage brand presence by developing strategic content, tracking trends, and improving overall digital growth.",
   },
   {
     role: "Business Analyst Intern",
