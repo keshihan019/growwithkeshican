@@ -16,7 +16,7 @@ const achievements = [
   },
   {
     icon: Award,
-    title: "Idealize 3.0 Hackathon — Finalist",
+    title: "Idealize 3.0 — Finalist",
     year: "2022",
     description: "Selected as a finalist in the Idealize 3.0 Hackathon for an impactful tech project.",
   },
