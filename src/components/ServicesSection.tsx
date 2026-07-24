@@ -1,36 +1,36 @@
 import { ScrollReveal } from "./ScrollReveal";
-import { Code, BarChart3, Megaphone, Palette, Database, Smartphone } from "lucide-react";
+import { Megaphone, PenTool, Briefcase, Mic, Compass, Code } from "lucide-react";
 
 const services = [
   {
-    icon: Code,
-    title: "Full-Stack Development",
-    description: "End-to-end web applications using modern technologies and best practices.",
-  },
-  {
     icon: Megaphone,
     title: "Digital Marketing",
-    description: "Data-driven social media strategies, SEO optimization, and content marketing.",
+    description: "Data-driven social media strategy, SEO, and paid campaigns that grow reach and conversions.",
   },
   {
-    icon: BarChart3,
-    title: "Business Analysis",
-    description: "Translating business needs into actionable insights and technical solutions.",
+    icon: PenTool,
+    title: "Content Creation",
+    description: "Engaging written, visual, and video content crafted to elevate your brand story.",
   },
   {
-    icon: Palette,
-    title: "UI/UX Design",
-    description: "User-centered designs crafted in Figma and brought to life with clean code.",
+    icon: Briefcase,
+    title: "Business Coaching",
+    description: "Practical guidance for founders and teams to sharpen strategy, execution, and growth.",
   },
   {
-    icon: Database,
-    title: "Salesforce Solutions",
-    description: "CRM customization, automation, and administration as a certified professional.",
+    icon: Mic,
+    title: "Voice-Over Services",
+    description: "Clear, professional voice-overs for ads, explainers, and e-learning in multiple languages.",
   },
   {
-    icon: Smartphone,
-    title: "Mobile Development",
-    description: "Cross-platform apps using React Native and Flutter for iOS & Android.",
+    icon: Compass,
+    title: "Career Coaching",
+    description: "Personalised mentoring on CVs, interviews, and career direction for students and professionals.",
+  },
+  {
+    icon: Code,
+    title: "Full-Stack Development",
+    description: "End-to-end web and mobile applications built with modern, scalable technologies.",
   },
 ];
 

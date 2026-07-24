@@ -194,12 +194,12 @@ var get_services_default = defineTool7({
       {
         type: "text",
         text: JSON.stringify([
-          { title: "Full-Stack Development", description: "End-to-end web applications using modern technologies and best practices." },
-          { title: "Digital Marketing", description: "Data-driven social media strategies, SEO optimization, and content marketing." },
-          { title: "Business Analysis", description: "Translating business needs into actionable insights and technical solutions." },
-          { title: "UI/UX Design", description: "User-centered designs crafted in Figma and brought to life with clean code." },
-          { title: "Salesforce Solutions", description: "CRM customization, automation, and administration as a certified professional." },
-          { title: "Mobile Development", description: "Cross-platform apps using React Native and Flutter for iOS & Android." }
+          { title: "Digital Marketing", description: "Data-driven social media strategy, SEO, and paid campaigns that grow reach and conversions." },
+          { title: "Content Creation", description: "Engaging written, visual, and video content crafted to elevate your brand story." },
+          { title: "Business Coaching", description: "Practical guidance for founders and teams to sharpen strategy, execution, and growth." },
+          { title: "Voice-Over Services", description: "Clear, professional voice-overs for ads, explainers, and e-learning in multiple languages." },
+          { title: "Career Coaching", description: "Personalised mentoring on CVs, interviews, and career direction for students and professionals." },
+          { title: "Full-Stack Development", description: "End-to-end web and mobile applications built with modern, scalable technologies." }
         ], null, 2)
       }
     ]
