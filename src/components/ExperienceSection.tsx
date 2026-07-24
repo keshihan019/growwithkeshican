@@ -2,9 +2,16 @@ import { ScrollReveal } from "./ScrollReveal";
 
 const experiences = [
   {
+    role: "UNV – Tech Content Development Specialist",
+    company: "UNICEF Sri Lanka",
+    period: "Jul 2026 – Present",
+    description:
+      "Supporting UNICEF Sri Lanka's digital education initiatives, including the Accessible Digital Textbooks (ADT) project with the Ministry of Education. Contribute to digital content development, accessibility-focused learning resources, quality assurance, and technical documentation to advance inclusive learning for diverse learners, including children with disabilities.",
+  },
+  {
     role: "Social Media Analyst",
     company: "Qubitz",
-    period: "Feb 2025 – Present",
+    period: "Feb 2025 – Jun 2026",
     description:
       "Analyze social media performance and generate data-driven insights to optimize engagement and campaign effectiveness. Manage brand presence by developing strategic content, tracking trends, and improving overall digital growth.",
   },
