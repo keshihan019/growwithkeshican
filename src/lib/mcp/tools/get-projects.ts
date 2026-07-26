@@ -12,10 +12,10 @@ export default defineTool({
         type: "text",
         text: JSON.stringify([
           {
-            title: "Community Empowerment Platform",
-            tags: ["Social Impact", "Web Dev"],
-            description: "A digital platform connecting communities in Trincomalee with resources, mentorship, and opportunities.",
-            link: "https://whatsapp.com/channel/0029Va9qDis9MF90vwaoYv3J",
+            title: "Arts & Culture Hub",
+            tags: ["Arts & Culture", "Youth"],
+            description: "Akaram Kalaikoodam — an organization shaping Trincomalee's youth future through arts, culture, and creative expression.",
+            link: "https://akaramkalaikoodam.com/",
           },
           {
             title: "Community Hub Trinco Mirror",
