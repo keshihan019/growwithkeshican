@@ -146,8 +146,8 @@ var get_achievements_default = defineTool5({
           { title: "Yarl SF Ohana Hackforce \u2014 Finalist", year: "2023" },
           { title: "Idealize 3.0 \u2014 Finalist", year: "2022" },
           { title: "Aspire Scholar '23", description: "Selected for the Aspire Leaders Program." },
-          { title: "NEOrganics Food Innovation Lab Business Pitch Competition \u2014 1st Runner-Up", year: "Sep 2021", description: "Issued by Comdu.it & NEOrganics \u2014 immersive entrepreneurial program for young talents from Northern & Eastern Sri Lanka." },
-          { title: "Leo Gold Star Award", year: "Jan 2021", description: "Issued by Leo District 306C1 for outstanding accomplishments during the Leoistic year 2020/21 \u2014 Leo Club of Trincomalee Heroes." }
+          { title: "NEOrganics Food Innovation Lab Business Pitch Competition \u2014 1st Runner-Up", year: "Sep 2021", description: "Business Pitch Competition by Comdu.it & NEOrganics." },
+          { title: "Leo Gold Star Award", year: "Jan 2021", description: "Issued by Leo District 306C1 for outstanding accomplishments during the Leoistic year 2020/21." }
         ], null, 2)
       }
     ]

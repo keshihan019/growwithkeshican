@@ -29,15 +29,14 @@ const achievements = [
     icon: Globe,
     title: "NEOrganics Food Innovation Lab — 1st Runner-Up",
     year: "Sep 2021",
-    description:
-      "Business Pitch Competition by Comdu.it & NEOrganics — an immersive entrepreneurial program for twenty young talents from Sri Lanka's Northern & Eastern Provinces.",
+    description: "Business Pitch Competition by Comdu.it & NEOrganics.",
   },
   {
     icon: Users,
     title: "Leo Gold Star Award",
     year: "Jan 2021",
     description:
-      "Issued by Leo District 306C1 for outstanding accomplishments during the Leoistic year 2020/21 — Leo Club of Trincomalee Heroes.",
+      "Issued by Leo District 306C1 for outstanding accomplishments during the Leoistic year 2020/21.",
   },
 ];
 
