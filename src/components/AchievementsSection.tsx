@@ -27,13 +27,17 @@ const achievements = [
   },
   {
     icon: Globe,
-    title: "Social Impactpreneur",
-    description: "Driving community empowerment initiatives through technology and digital innovation in Sri Lanka.",
+    title: "NEOrganics Food Innovation Lab — 1st Runner-Up",
+    year: "Sep 2021",
+    description:
+      "Business Pitch Competition by Comdu.it & NEOrganics — an immersive entrepreneurial program for twenty young talents from Sri Lanka's Northern & Eastern Provinces.",
   },
   {
     icon: Users,
-    title: "5,600+ LinkedIn Followers",
-    description: "Built a strong professional network sharing insights on technology, marketing, and career development.",
+    title: "Leo Gold Star Award",
+    year: "Jan 2021",
+    description:
+      "Issued by Leo District 306C1 for outstanding accomplishments during the Leoistic year 2020/21 — Leo Club of Trincomalee Heroes.",
   },
 ];
 
