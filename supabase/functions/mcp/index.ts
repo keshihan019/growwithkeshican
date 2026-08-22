@@ -122,7 +122,9 @@ var get_certifications_default = defineTool4({
           { name: "Cisco Certified Cybersecurity Essentials", issuer: "Cisco" },
           { name: "Certified Aspire Scholar 2023", issuer: "Aspire Institute" },
           { name: "Diploma in Digital Marketing", issuer: "Sri Lanka Institute of Marketing" },
-          { name: "Google Analytics Certification", issuer: "Google" }
+          { name: "Google Analytics Certification", issuer: "Google" },
+          { name: "Copado Certified \u2014 Copado AI", issuer: "Copado" },
+          { name: "Microsoft Learn Student Ambassador (Alpha)", issuer: "Microsoft" }
         ], null, 2)
       }
     ]

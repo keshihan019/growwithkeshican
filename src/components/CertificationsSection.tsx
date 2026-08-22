@@ -8,6 +8,8 @@ const certifications = [
   { name: "Certified Aspire Scholar 2023", issuer: "Aspire Institute" },
   { name: "Diploma in Digital Marketing", issuer: "Sri Lanka Institute of Marketing" },
   { name: "Google Analytics Certification", issuer: "Google" },
+  { name: "Copado Certified — Copado AI", issuer: "Copado" },
+  { name: "Microsoft Learn Student Ambassador (Alpha)", issuer: "Microsoft" },
 ];
 
 export const CertificationsSection = () => {
