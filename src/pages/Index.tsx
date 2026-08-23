@@ -21,7 +21,6 @@ const Index = () => {
       <EducationSection />
       <ExperienceSection />
       <AchievementsSection />
-      <CertificationsSection />
       <CertificatesShowcase />
       <BadgesSection />
       <CompetenciesSection />
