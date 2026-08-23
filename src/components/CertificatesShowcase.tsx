@@ -45,24 +45,41 @@ const certificates = [
   },
 ];
 
-const ITEMS_PER_SLIDE = 2;
-
-const getPageCount = () => Math.ceil(certificates.length / ITEMS_PER_SLIDE);
+const MD_BREAKPOINT = 768;
 
 export const CertificatesShowcase = () => {
   const [active, setActive] = useState<number | null>(null);
   const [page, setPage] = useState(0);
   const [direction, setDirection] = useState(0);
+  const [itemsPerSlide, setItemsPerSlide] = useState(() =>
+    typeof window !== "undefined" && window.innerWidth >= MD_BREAKPOINT ? 2 : 1
+  );
+
+  useEffect(() => {
+    const update = () => {
+      const next = window.innerWidth >= MD_BREAKPOINT ? 2 : 1;
+      setItemsPerSlide((prev) => {
+        if (prev !== next) {
+          setPage(0);
+        }
+        return next;
+      });
+    };
+    update();
+    window.addEventListener("resize", update);
+    return () => window.removeEventListener("resize", update);
+  }, []);
+
+  const pageCount = Math.ceil(certificates.length / itemsPerSlide);
 
   const slide = useCallback((nextPage: number) => {
-    const total = getPageCount();
     setDirection(nextPage > page ? 1 : -1);
     setPage((prev) => {
-      if (nextPage < 0) return total - 1;
-      if (nextPage >= total) return 0;
+      if (nextPage < 0) return pageCount - 1;
+      if (nextPage >= pageCount) return 0;
       return nextPage;
     });
-  }, [page]);
+  }, [page, pageCount]);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -72,11 +89,9 @@ export const CertificatesShowcase = () => {
   }, [page, slide]);
 
   const visible = certificates.slice(
-    page * ITEMS_PER_SLIDE,
-    page * ITEMS_PER_SLIDE + ITEMS_PER_SLIDE
+    page * itemsPerSlide,
+    page * itemsPerSlide + itemsPerSlide
   );
-
-  const pageCount = getPageCount();
 
   const variants = {
     enter: (dir: number) => ({
