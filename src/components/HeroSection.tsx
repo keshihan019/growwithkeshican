@@ -168,7 +168,7 @@ export const HeroSection = () => {
               transition={{ delay: 0.9, duration: 0.5 }}
               className="absolute -bottom-4 -left-4 md:-left-8 bg-card border border-border rounded-2xl p-4 shadow-xl"
             >
-              <p className="text-2xl font-bold text-primary leading-none">65K</p>
+              <p className="text-2xl font-bold text-primary leading-none">65K+</p>
               <p className="text-xs text-muted-foreground mt-1">Social Media Family</p>
             </motion.div>
             <motion.div
