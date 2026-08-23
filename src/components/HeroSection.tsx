@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, MapPin, Linkedin, Github, Facebook, Instagram, Youtube, Twitter, ArrowUpRight } from "lucide-react";
+import { AnimatedCounter } from "./AnimatedCounter";
 import profilePhoto from "@/assets/profile-photo.png";
 
 const socials = [
