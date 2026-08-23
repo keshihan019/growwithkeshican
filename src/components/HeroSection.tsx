@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, MapPin, Linkedin, Github, Facebook, Instagram, Youtube, Twitter, ArrowUpRight } from "lucide-react";
+import { AnimatedCounter } from "./AnimatedCounter";
 import profilePhoto from "@/assets/profile-photo.png";
 
 const socials = [
@@ -58,7 +59,33 @@ export const HeroSection = () => {
             <motion.div
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
+              transition={{ duration: 0.6, delay: 0.25 }}
+              className="grid grid-cols-3 gap-4 max-w-lg mb-8"
+            >
+              {[
+                { value: 30, suffix: "+", label: "Trainings Provided" },
+                { value: 1200, suffix: "+", label: "Impacted School Leavers" },
+                { value: 50, suffix: "+", label: "Success Stories" },
+              ].map((stat, i) => (
+                <div
+                  key={stat.label}
+                  className="relative overflow-hidden rounded-2xl bg-card border border-border p-4 text-center shadow-sm"
+                >
+                  <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-primary via-accent to-primary" />
+                  <p className="text-2xl md:text-3xl font-bold font-display text-foreground leading-none mb-1">
+                    <AnimatedCounter value={stat.value} suffix={stat.suffix} />
+                  </p>
+                  <p className="text-[10px] md:text-xs text-muted-foreground font-medium leading-tight">
+                    {stat.label}
+                  </p>
+                </div>
+              ))}
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
               className="flex flex-wrap gap-3 mb-8"
             >
               <a
