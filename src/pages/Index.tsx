@@ -4,7 +4,6 @@ import { AboutSection } from "@/components/AboutSection";
 import { EducationSection } from "@/components/EducationSection";
 import { ExperienceSection } from "@/components/ExperienceSection";
 import { AchievementsSection } from "@/components/AchievementsSection";
-import { CertificationsSection } from "@/components/CertificationsSection";
 import { CertificatesShowcase } from "@/components/CertificatesShowcase";
 import { BadgesSection } from "@/components/BadgesSection";
 import { CompetenciesSection } from "@/components/CompetenciesSection";
