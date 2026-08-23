@@ -60,22 +60,18 @@ export const HeroSection = () => {
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.25 }}
-              className="grid grid-cols-3 gap-4 max-w-lg mb-8"
+              className="flex flex-wrap items-baseline gap-x-8 gap-y-4 max-w-xl mb-8"
             >
               {[
                 { value: 30, suffix: "+", label: "Trainings Provided" },
-                { value: 1200, suffix: "+", label: "Impacted School Leavers" },
+                { value: 1200, suffix: "+", label: "Impacted Youth" },
                 { value: 50, suffix: "+", label: "Success Stories" },
               ].map((stat, i) => (
-                <div
-                  key={stat.label}
-                  className="relative overflow-hidden rounded-2xl bg-card border border-border p-4 text-center shadow-sm"
-                >
-                  <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-primary via-accent to-primary" />
-                  <p className="text-2xl md:text-3xl font-bold font-display text-foreground leading-none mb-1">
+                <div key={stat.label} className="flex flex-col">
+                  <p className="text-4xl md:text-5xl font-bold font-display leading-none tracking-tight gradient-text">
                     <AnimatedCounter value={stat.value} suffix={stat.suffix} />
                   </p>
-                  <p className="text-[10px] md:text-xs text-muted-foreground font-medium leading-tight">
+                  <p className="text-xs md:text-sm text-muted-foreground font-medium mt-1.5">
                     {stat.label}
                   </p>
                 </div>
@@ -172,7 +168,7 @@ export const HeroSection = () => {
               transition={{ delay: 0.9, duration: 0.5 }}
               className="absolute -bottom-4 -left-4 md:-left-8 bg-card border border-border rounded-2xl p-4 shadow-xl"
             >
-              <p className="text-2xl font-bold text-primary leading-none">65K</p>
+              <p className="text-2xl font-bold text-primary leading-none">65K+</p>
               <p className="text-xs text-muted-foreground mt-1">Social Media Family</p>
             </motion.div>
             <motion.div
