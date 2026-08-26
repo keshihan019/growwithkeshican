@@ -112,28 +112,18 @@ export const HeroSection = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={s.label}
-                  className="relative w-9 h-9 rounded-lg bg-secondary text-foreground/70 hover:bg-primary hover:text-primary-foreground flex items-center justify-center overflow-hidden transition-colors"
+                  className="relative w-9 h-9 rounded-lg bg-primary/10 border border-primary/30 text-primary flex items-center justify-center overflow-hidden transition-colors hover:bg-primary/15"
                   whileTap="tap"
                   variants={{
-                    tap: { scale: 0.88, transition: { duration: 0.1 } },
+                    tap: { scale: 0.9, transition: { duration: 0.1 } },
                   }}
                 >
-                  <motion.div
-                    className="absolute inset-0 rounded-lg"
-                    style={{ backgroundColor: s.color }}
-                    variants={{
-                      tap: {
-                        opacity: [0, 1, 0],
-                        transition: { duration: 0.35, times: [0, 0.5, 1] },
-                      },
-                    }}
-                  />
                   <motion.span
                     className="relative z-10"
                     variants={{
                       tap: {
-                        color: ["currentColor", "#ffffff", "currentColor"],
-                        transition: { duration: 0.35, times: [0, 0.5, 1] },
+                        color: ["currentColor", s.color, "currentColor"],
+                        transition: { duration: 0.4, times: [0, 0.5, 1] },
                       },
                     }}
                   >
