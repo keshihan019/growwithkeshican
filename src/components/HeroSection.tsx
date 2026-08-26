@@ -4,12 +4,12 @@ import { AnimatedCounter } from "./AnimatedCounter";
 import profilePhoto from "@/assets/profile-photo.png";
 
 const socials = [
-  { icon: Linkedin, href: "https://www.linkedin.com/in/keshihan/", label: "LinkedIn" },
-  { icon: Github, href: "https://github.com/keshihan019", label: "GitHub" },
-  { icon: Facebook, href: "https://www.facebook.com/growithkeshican", label: "Facebook" },
-  { icon: Instagram, href: "https://www.instagram.com/keshihan_19", label: "Instagram" },
-  { icon: Twitter, href: "https://x.com/keshihan019", label: "X" },
-  { icon: Youtube, href: "https://www.youtube.com/channel/UCewC3HIV1PW4iQFncs8Nqxw", label: "YouTube" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/keshihan/", label: "LinkedIn", color: "#0A66C2" },
+  { icon: Github, href: "https://github.com/keshihan019", label: "GitHub", color: "#181717" },
+  { icon: Facebook, href: "https://www.facebook.com/growithkeshican", label: "Facebook", color: "#1877F2" },
+  { icon: Instagram, href: "https://www.instagram.com/keshihan_19", label: "Instagram", color: "#E4405F" },
+  { icon: Twitter, href: "https://x.com/keshihan019", label: "X", color: "#000000" },
+  { icon: Youtube, href: "https://www.youtube.com/channel/UCewC3HIV1PW4iQFncs8Nqxw", label: "YouTube", color: "#FF0000" },
 ];
 
 export const HeroSection = () => {
