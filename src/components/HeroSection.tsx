@@ -106,16 +106,40 @@ export const HeroSection = () => {
               className="flex items-center gap-2.5"
             >
               {socials.map((s) => (
-                <a
+                <motion.a
                   key={s.label}
                   href={s.href}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={s.label}
-                  className="w-9 h-9 rounded-lg bg-secondary text-foreground/70 hover:bg-primary hover:text-primary-foreground flex items-center justify-center transition-colors active:scale-95"
+                  className="relative w-9 h-9 rounded-lg bg-secondary text-foreground/70 hover:bg-primary hover:text-primary-foreground flex items-center justify-center overflow-hidden transition-colors"
+                  whileTap="tap"
+                  variants={{
+                    tap: { scale: 0.88, transition: { duration: 0.1 } },
+                  }}
                 >
-                  <s.icon size={16} />
-                </a>
+                  <motion.div
+                    className="absolute inset-0 rounded-lg"
+                    style={{ backgroundColor: s.color }}
+                    variants={{
+                      tap: {
+                        opacity: [0, 1, 0],
+                        transition: { duration: 0.35, times: [0, 0.5, 1] },
+                      },
+                    }}
+                  />
+                  <motion.span
+                    className="relative z-10"
+                    variants={{
+                      tap: {
+                        color: ["currentColor", "#ffffff", "currentColor"],
+                        transition: { duration: 0.35, times: [0, 0.5, 1] },
+                      },
+                    }}
+                  >
+                    <s.icon size={16} />
+                  </motion.span>
+                </motion.a>
               ))}
             </motion.div>
           </div>
