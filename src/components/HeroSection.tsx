@@ -112,7 +112,7 @@ export const HeroSection = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={s.label}
-                  className="relative w-9 h-9 rounded-lg bg-secondary text-foreground/70 hover:bg-primary hover:text-primary-foreground flex items-center justify-center overflow-hidden transition-colors"
+                  className="relative w-9 h-9 rounded-lg bg-white/40 backdrop-blur-sm border border-primary text-foreground/70 hover:bg-primary hover:text-primary-foreground flex items-center justify-center overflow-hidden transition-colors"
                   whileTap="tap"
                   variants={{
                     tap: { scale: 0.88, transition: { duration: 0.1 } },
